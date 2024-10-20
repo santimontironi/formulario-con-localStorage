@@ -32,9 +32,7 @@ formulario.addEventListener("submit",function(event){
 
     localStorage.setItem("personas", JSON.stringify(personas)) //Transforma a string el JSON para guardarlo correctamente.
 
-    nombre.value = ""
-    apellido.value = ""
-    edad.value = ""
+    formulario.reset()
 })
 
 document.addEventListener("DOMContentLoaded",function(){
