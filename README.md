@@ -7,3 +7,6 @@ Persiste los datos utilizando LocalStorage.
 Visualiza los datos en una tabla HTML.
 El formulario se limpia automáticamente después de cada envío.
 Los datos guardados se recargan automáticamente al abrir la página.
+
+## Despliegue
+formulariolocalstorage.netlify.app
